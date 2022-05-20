@@ -218,17 +218,17 @@ function esPositivo(numero)
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if(numero == 0)
+  if(numero === 0)
   {
     return false;
   }
   else if(numero > 0)
   {
-    return "es positivo";
+    return "Es positivo";
   }
   else
     {
-      return "es negativo";
+      return "Es negativo";
     }
 }
 
@@ -301,7 +301,7 @@ function esVocal(letra)
  {
   return "Dato incorrecto";
  } 
- if(letra == "a" || letra == "b" || letra == "c" || letra == "d" || letra == "e")
+ if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u")
  {
    return "Es vocal";
  }
