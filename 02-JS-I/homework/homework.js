@@ -270,8 +270,7 @@ function retornarPerimetro(lado)
 {
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  var z = Math.pow(lado,2);
-  return z;
+  return lado*4;
 }
 
 function areaDelTriangulo(base, altura)
