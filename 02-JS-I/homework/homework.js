@@ -222,7 +222,7 @@ function esPositivo(numero)
   {
     return false;
   }
-  if(numero > 0)
+  else if(numero > 0)
   {
     return "es positivo";
   }
@@ -301,7 +301,7 @@ function esVocal(letra)
  {
   return "Dato incorrecto";
  } 
- if(letra === "a" || letra === "b" || letra === "c" || letra === "d" || letra === "e")
+ if(letra == "a" || letra == "b" || letra == "c" || letra == "d" || letra == "e")
  {
    return "Es vocal";
  }
