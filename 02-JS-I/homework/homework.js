@@ -169,14 +169,14 @@ function elevarAlCuadrado(num)
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return math.pow(num,2);
+  return Math.pow(num,2);
 }
 
 function elevarAlCubo(num) 
 {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  var z = math.pow(num,3);
+  var z = Math.pow(num,3);
   return z;
 }
 
@@ -184,7 +184,7 @@ function elevar(num, exponent)
 {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  var z = math.pow(num,exponent);
+  var z = Math.pow(num,exponent);
   return z;
 }
 
@@ -192,7 +192,7 @@ function redondearNumero(num)
 {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  var z = math.round(num);
+  var z = Math.round(num);
   return z;
 }
 
@@ -200,7 +200,7 @@ function redondearHaciaArriba(num)
 {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  var z = math.ceil(num);
+  var z = Math.ceil(num);
   return z;
 }
 
@@ -208,7 +208,7 @@ function numeroRandom()
 {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  var z = math.random();
+  var z = Math.random();
   return z;
 }
 
@@ -270,7 +270,7 @@ function retornarPerimetro(lado)
 {
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  var z = math.pow(lado,2);
+  var z = Math.pow(lado,2);
   return z;
 }
 
