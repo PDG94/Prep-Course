@@ -151,7 +151,7 @@ function multiplicarArgumentos()
   var total=1;
   for(var i = 0;i<arguments.length;i++)
   {
-    total = total + arguments[i];
+    total = total * arguments[i];
   }
   return total;
 }
@@ -294,18 +294,18 @@ function continueStatement(numero)
   //Devolver el array
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
-  // Tu código:
-  var suma=numero;
+  // Tu código:  
   var array=[];
+  var suma=numero;
   for(var i = 0; i<10;i++)
-  {
-    suma = suma+2;
-    if (i===5)
+  {    
+    if (i===5) 
     {
       continue;
-    }
+    }    
     else
     {
+      suma = suma+2;
       array.push(suma);
     }
   }
